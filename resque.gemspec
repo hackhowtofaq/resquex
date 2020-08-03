@@ -2,10 +2,10 @@ $LOAD_PATH.unshift 'lib'
 require 'resque/version'
 
 Gem::Specification.new do |s|
-  s.name              = "resque"
+  s.name              = "resquex"
   s.version           = Resque::Version
-  s.summary           = "Resque is a Redis-backed queueing system."
-  s.homepage          = "http://resque.github.io/"
+  s.summary           = "Resquex is a Redis-backed queueing system."
+  s.homepage          = "http://resquex.github.io/"
   s.email             = "steve@steveklabnik.com"
   s.authors           = [ "Chris Wanstrath", "Steve Klabnik", "Terence Lee" ]
 
