@@ -60,6 +60,7 @@
         <td class='process'>
           <% if job['queue'] %>
             <%= partial :processing, :worker => worker, :job => job %>
+          <br/><code Args: <%= job['payload']['args'].to_s %></code>
           <% else %>
             <span class='waiting'>Waiting for a job...</span>
           <% end %>
